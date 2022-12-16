@@ -1,38 +1,22 @@
 public class Main {
     public static void main(String[] args) {
-        Human maxim = new Human("Максим","Минск",1988,"Бренд-менеджер");
-        maxim.name = "Максим";
-        maxim.town = "Минск";
-        maxim.yearOfBirth = 1988;
-        maxim.jobTitle = "Бренд-менеджер";
+        Human maxim = new Human("Максим","Минск",1988,",бренд-менеджер");
         System.out.println("Привет, меня зовут " + maxim.name + ". Я из города " + maxim.town + ". Я родился в " + maxim.yearOfBirth + " году." +
                 " Я работаю на должности " + maxim.jobTitle + ". Будем знакомы!");
         System.out.println();
 
 
-        Human anya = new Human("Аня", "Москва",1993,"Методист образовательных программ");
-        anya.name = "Аня";
-        anya.town = "Москва";
-        anya.yearOfBirth = 1993;
-        anya.jobTitle = "Методист образовательных программ";
+        Human anya = new Human( null,"Москва",1993,"методист образовательных программ");
         System.out.println("Привет, меня зовут " + anya.name + ". Я из города " + anya.town + ". Я родилась в " + anya.yearOfBirth + " году." +
                 " Я работаю на должности " + anya.jobTitle + ". Будем знакомы!");
         System.out.println();
 
-        Human katya = new Human("Катя","Калининград",1992,"Продакт-менеджер");
-        katya.name = "Катя";
-        katya.town = "Калининград";
-        katya.yearOfBirth = 1992;
-        katya.jobTitle = "Продакт-менеджер";
+        Human katya = new Human("Катя","Калининград",0,"продакт-менеджер");
         System.out.println("Привет, меня зовут " + katya.name + ". Я из города " + katya.town + ". Я родилась в " + katya.yearOfBirth + " году." +
                 " Я работаю на должности " + katya.jobTitle + ". Будем знакомы!");
         System.out.println();
 
-        Human artem = new Human("Артем","Москва",1995,"Директор по развитию бизнеса");
-        artem.name = "Артем";
-        artem.town = "Москва";
-        artem.yearOfBirth = 1995;
-        artem.jobTitle = "Директор по развитию бизнеса";
+        Human artem = new Human("Артем","Москва",1995,"директор по развитию бизнеса");
         System.out.println("Привет, меня зовут " + artem.name + ". Я из города " + artem.town + ". Я родился в " + artem.yearOfBirth + " году." +
                 " Я работаю на должности " + artem.jobTitle + ". Будем знакомы!");
         System.out.println();
