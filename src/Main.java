@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Human maxim = new Human();
+        Human maxim = new Human("Максим","Минск",1988,"Бренд-менеджер");
         maxim.name = "Максим";
         maxim.town = "Минск";
         maxim.yearOfBirth = 1988;
@@ -9,7 +9,8 @@ public class Main {
                 " Я работаю на должности " + maxim.jobTitle + ". Будем знакомы!");
         System.out.println();
 
-        Human anya = new Human();
+
+        Human anya = new Human("Аня", "Москва",1993,"Методист образовательных программ");
         anya.name = "Аня";
         anya.town = "Москва";
         anya.yearOfBirth = 1993;
@@ -18,7 +19,7 @@ public class Main {
                 " Я работаю на должности " + anya.jobTitle + ". Будем знакомы!");
         System.out.println();
 
-        Human katya = new Human();
+        Human katya = new Human("Катя","Калининград",1992,"Продакт-менеджер");
         katya.name = "Катя";
         katya.town = "Калининград";
         katya.yearOfBirth = 1992;
@@ -27,7 +28,7 @@ public class Main {
                 " Я работаю на должности " + katya.jobTitle + ". Будем знакомы!");
         System.out.println();
 
-        Human artem = new Human();
+        Human artem = new Human("Артем","Москва",1995,"Директор по развитию бизнеса");
         artem.name = "Артем";
         artem.town = "Москва";
         artem.yearOfBirth = 1995;
@@ -35,6 +36,7 @@ public class Main {
         System.out.println("Привет, меня зовут " + artem.name + ". Я из города " + artem.town + ". Я родился в " + artem.yearOfBirth + " году." +
                 " Я работаю на должности " + artem.jobTitle + ". Будем знакомы!");
         System.out.println();
+
 
     }
 }
